@@ -1,0 +1,25 @@
+try
+	tell application "Finder" to set the source_folder to (folder of the front window)
+on error -- no open folder windows
+	set the source_folder to path to desktop folder as alias
+	set source to source_folder as alias
+end try
+
+if kind of source_folder = "folder" then
+	set source to source_folder as alias
+	set thePath to (POSIX path of the source as string)
+else
+	set the source_folder to the folder of source_folder
+	set source to source_folder as alias
+	set thePath to (POSIX path of source as string)
+	set the result to thePath
+end if
+# set the clipboard to "cd " & quoted form of thePath
+
+tell application "iTerm"
+	activate
+	tell current session of current window
+		write text "cd " & quoted form of thePath
+	end tell
+end tell
+

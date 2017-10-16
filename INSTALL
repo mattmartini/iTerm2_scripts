@@ -1,0 +1,28 @@
+################################################################################
+#                                                                              #
+#    INSTALL for iTerm2 Scripts
+#                                                                              #
+#    $Id: $                                                                    #
+#                                                                              #
+#   Copyright (C) 2017 Matt Martini <matt@imaginarywave.com>                   #
+#                                                                              #
+#   This program is free software; distributed under GNU GPLv3, see LICENSE.   #
+#                                                                              #
+################################################################################
+
+All of the files that end in .scpt are Applescript documents.  If you have
+trouble with these documents, you can copy and paste the .scpt.txt versions
+into Script Editor and then compile and save them on your machine.
+
+
+tcdf.scpt should be opened in Script Editor and saved as an Application
+Use the export option under the file menu.
+The resulting Application should be added to your Finder toolbar via dragging
+it onto a toolbar that has "Customise Toolbar" active.
+
+
+cdf_alias.sh and iterm_fns.sh should be sourced by your .bashrc or .bash_profile
+
+fdc and posd should be put in your ~/bin dir, or /usr/local/bin (or somewhere in your path)
+
+
