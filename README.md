@@ -3,7 +3,7 @@
 This is a collection of scripts that will make interacting between the Finder
 and iTerm2 much easier.
 
-Most of the scripts help you manage changing directories.
+The main scripts help you manage changing directories. The rest are utilities.
 
 _bash scripts_
 
