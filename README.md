@@ -5,7 +5,7 @@ and iTerm2 much easier.
 
 The main scripts help you manage changing directories. The rest are utilities.
 
-_bash scripts_
+## bash scripts
 
 `cdf` - this will change your iTerm session to the Folder that the top most  
       Finder window is opened to.
@@ -13,14 +13,14 @@ _bash scripts_
 `fdc` - this will change the Folder of the finder to your cwd
 
 
-_Finder Apps_
+## Finder Apps
 
 `tcdf.app` - this acts like cdf, changes iTerm session to the Folder  
            that the Finder window is opened to, but it is activated from  
            an icon in the Finder Toolbar (see INSTALL)
 
 
-_bash functions_
+## bash functions
 
 `is_iTerm` - checks if running in iTerm
 
@@ -71,6 +71,12 @@ _bash functions_
 `iterm_change_session_color_alt` - change color pallet alternate  
   -  $1 color to change: g foreground, h background, i bold, j selection, k selected text, l cursor, m cursor text  
   -  $2 RRGGBB
+
+## Color Schemes and Profiles
+
+A selection of Color schemes and Profile definitions
+
+## Install
 
 See INSTALL for installation notes.
 
