@@ -1,0 +1,336 @@
+{
+  "Ansi 5 Color" : {
+    "Green Component" : 0.35599999999999998,
+    "Blue Component" : 0.70099999999999996,
+    "Red Component" : 0.90800000000000003
+  },
+  "Working Directory" : "\/Users\/martini",
+  "Prompt Before Closing 2" : 0,
+  "Selected Text Color" : {
+    "Green Component" : 0.81499999999999995,
+    "Blue Component" : 0.81599999999999995,
+    "Red Component" : 0.751
+  },
+  "Rows" : 60,
+  "Ansi 11 Color" : {
+    "Green Component" : 0.70699999999999996,
+    "Blue Component" : 0.14299999999999999,
+    "Red Component" : 0.89300000000000002
+  },
+  "Use Italic Font" : true,
+  "Foreground Color" : {
+    "Green Component" : 0.68200000000000005,
+    "Blue Component" : 0.68300000000000005,
+    "Red Component" : 0.622
+  },
+  "Right Option Key Sends" : 0,
+  "Show Status Bar" : false,
+  "Character Encoding" : 4,
+  "Selection Color" : {
+    "Green Component" : 0.223,
+    "Blue Component" : 0.27000000000000002,
+    "Red Component" : 0.088200000000000001
+  },
+  "Triggers" : [
+
+  ],
+  "Blend" : 0.30000001192092896,
+  "Show Mark Indicators" : false,
+  "Mouse Reporting" : true,
+  "Ansi 4 Color" : {
+    "Green Component" : 0.50900000000000001,
+    "Blue Component" : 0.97199999999999998,
+    "Red Component" : 0.22900000000000001
+  },
+  "Non-ASCII Anti Aliased" : true,
+  "Sync Title" : false,
+  "Disable Window Resizing" : false,
+  "Close Sessions On End" : false,
+  "Jobs to Ignore" : [
+    "rlogin",
+    "ssh",
+    "slogin",
+    "telnet"
+  ],
+  "Non-ASCII Ligatures" : true,
+  "Scrollback Lines" : 4000,
+  "Scrollback in Alternate Screen" : true,
+  "Scrollback With Status Bar" : false,
+  "Status Bar Layout" : {
+    "components" : [
+
+    ],
+    "advanced configuration" : {
+      "remove empty components" : false,
+      "font" : ".AppleSystemUIFont 12",
+      "algorithm" : 0,
+      "auto-rainbow style" : 0
+    }
+  },
+  "Hide After Opening" : false,
+  "Flashing Bell" : true,
+  "Cursor Guide Color" : {
+    "Red Component" : 0.70214027166366577,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 0.25,
+    "Green Component" : 0.92681378126144409
+  },
+  "BM Growl" : true,
+  "Ansi 3 Color" : {
+    "Green Component" : 0.64300000000000002,
+    "Blue Component" : 0.085900000000000004,
+    "Red Component" : 0.81899999999999995
+  },
+  "Open Password Manager Automatically" : false,
+  "Link Color" : {
+    "Red Component" : 0,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.73422706127166748,
+    "Alpha Component" : 1,
+    "Green Component" : 0.35915294289588928
+  },
+  "Shortcut" : "",
+  "Background Image Location" : "",
+  "Bold Color" : {
+    "Green Component" : 0.81499999999999995,
+    "Blue Component" : 0.81599999999999995,
+    "Red Component" : 0.751
+  },
+  "Unlimited Scrollback" : false,
+  "Custom Command" : "No",
+  "Smart Selection Rules" : [
+    {
+      "notes" : "Word bounded by whitespace",
+      "regex" : "\\S+",
+      "precision" : "low"
+    },
+    {
+      "notes" : "C++ namespace::identifier",
+      "regex" : "([a-zA-Z0-9_]+::)+[a-zA-Z0-9_]+",
+      "precision" : "normal"
+    },
+    {
+      "notes" : "Paths",
+      "regex" : "\\~?\/?([[:letter:][:number:]._-]+\/+)+[[:letter:][:number:]._-]+\/?",
+      "precision" : "normal"
+    },
+    {
+      "notes" : "Quoted string",
+      "regex" : "@?\"(?:[^\"\\\\]|\\\\.)*\"",
+      "precision" : "normal"
+    },
+    {
+      "notes" : "Java\/Python include paths",
+      "regex" : "([[:letter:][:number:]._]+\\.)+[[:letter:][:number:]._]+",
+      "precision" : "normal"
+    },
+    {
+      "notes" : "mailto URL",
+      "regex" : "\\bmailto:([a-z0-9A-Z_]+@)?([a-zA-Z0-9\\-]+\\.)*[a-zA-Z0-9\\-]+\\b",
+      "precision" : "normal"
+    },
+    {
+      "notes" : "Obj-C selector",
+      "regex" : "@selector\\([^)]+\\)",
+      "precision" : "high"
+    },
+    {
+      "notes" : "email address",
+      "regex" : "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}\\b",
+      "precision" : "high"
+    },
+    {
+      "notes" : "HTTP URL",
+      "regex" : "https?:\/\/([a-z0-9A-Z]+(:[a-zA-Z0-9]+)?@)?([a-z0-9A-Z]+\\.)+[A-Za-z]+((:[0-9]+)?)(\/[a-zA-Z0-9;\/\\.\\-_+%?&@=#\\(\\)]*)?",
+      "precision" : "very_high"
+    },
+    {
+      "notes" : "SSH URL",
+      "regex" : "\\bssh:([a-z0-9A-Z_]+@)?([a-zA-Z0-9\\-]+\\.)*[a-zA-Z0-9\\-]+\\b",
+      "precision" : "very_high"
+    },
+    {
+      "notes" : "Telnet URL",
+      "regex" : "\\btelnet:([a-z0-9A-Z_]+@)?([a-zA-Z0-9\\-]+\\.)*[a-zA-Z0-9\\-]+\\b",
+      "precision" : "very_high"
+    }
+  ],
+  "Keyboard Map" : {
+    "0xf702-0x320000" : {
+      "Action" : 2
+    },
+    "0xf701-0x380000" : {
+      "Text" : "",
+      "Action" : 21
+    },
+    "0xf700-0x220000" : {
+      "Action" : 7
+    },
+    "0xf702-0x380000" : {
+      "Text" : "",
+      "Action" : 18
+    },
+    "0xf700-0x380000" : {
+      "Text" : "",
+      "Action" : 20
+    },
+    "0xf729-0x20000" : {
+      "Action" : 5
+    },
+    "0xf72b-0x20000" : {
+      "Action" : 4
+    },
+    "0xf703-0x320000" : {
+      "Action" : 0
+    },
+    "0xf701-0x220000" : {
+      "Action" : 6
+    },
+    "0xf72c-0x20000" : {
+      "Action" : 9
+    },
+    "0xf703-0x380000" : {
+      "Text" : "",
+      "Action" : 19
+    },
+    "0xf72d-0x20000" : {
+      "Action" : 8
+    }
+  },
+  "Log Directory" : "",
+  "Use Canonical Parser" : false,
+  "Ansi 14 Color" : {
+    "Green Component" : 0.81100000000000005,
+    "Blue Component" : 0.73099999999999998,
+    "Red Component" : 0.316
+  },
+  "Ansi 2 Color" : {
+    "Green Component" : 0.68000000000000005,
+    "Blue Component" : 0.13,
+    "Red Component" : 0.41299999999999998
+  },
+  "Background Image Is Tiled" : false,
+  "Send Code When Idle" : false,
+  "ASCII Anti Aliased" : true,
+  "Tags" : [
+
+  ],
+  "Ansi 9 Color" : {
+    "Green Component" : 0.29299999999999998,
+    "Blue Component" : 0.28799999999999998,
+    "Red Component" : 1
+  },
+  "Use Bold Font" : true,
+  "Silence Bell" : false,
+  "Ansi 12 Color" : {
+    "Green Component" : 0.56699999999999995,
+    "Blue Component" : 1,
+    "Red Component" : 0.29099999999999998
+  },
+  "Window Type" : 0,
+  "Allow Title Reporting" : true,
+  "Use Bright Bold" : true,
+  "Has Hotkey" : false,
+  "Cursor Text Color" : {
+    "Green Component" : 0.182,
+    "Blue Component" : 0.221,
+    "Red Component" : 0.067400000000000002
+  },
+  "Ansi 1 Color" : {
+    "Green Component" : 0.23599999999999999,
+    "Blue Component" : 0.24399999999999999,
+    "Red Component" : 0.94499999999999995
+  },
+  "Default Bookmark" : "No",
+  "Disable Smcup Rmcup" : false,
+  "Name" : "MERM-Selenized-Dark",
+  "Blinking Cursor" : false,
+  "Cursor Color" : {
+    "Green Component" : 0.68200000000000005,
+    "Blue Component" : 0.68300000000000005,
+    "Red Component" : 0.622
+  },
+  "Guid" : "F26DDD98-22B3-4C1D-ABC5-0F5E5B2A861E",
+  "Ansi 8 Color" : {
+    "Green Component" : 0.28899999999999998,
+    "Blue Component" : 0.34000000000000002,
+    "Red Component" : 0.14499999999999999
+  },
+  "Ansi 10 Color" : {
+    "Green Component" : 0.746,
+    "Blue Component" : 0.17999999999999999,
+    "Red Component" : 0.47099999999999997
+  },
+  "Idle Code" : 0,
+  "Badge Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0,
+    "Alpha Component" : 0.5,
+    "Green Component" : 0.14910030364990234
+  },
+  "Automatically Log" : false,
+  "Smart Cursor Color" : false,
+  "Semantic History" : {
+    "editor" : "com.sublimetext.2",
+    "text" : "",
+    "action" : "best editor"
+  },
+  "Ambiguous Double Width" : false,
+  "Blur Radius" : 2,
+  "Ansi 0 Color" : {
+    "Green Component" : 0.223,
+    "Blue Component" : 0.27000000000000002,
+    "Red Component" : 0.088200000000000001
+  },
+  "Cursor Type" : 2,
+  "Blur" : false,
+  "Normal Font" : "FiraCode-Regular 15",
+  "Vertical Spacing" : 1,
+  "Disable Printing" : false,
+  "Ansi 7 Color" : {
+    "Green Component" : 0.46600000000000003,
+    "Blue Component" : 0.48699999999999999,
+    "Red Component" : 0.379
+  },
+  "Place Prompt at First Column" : false,
+  "Command" : "\/opt\/homebrew\/bin\/bash --login",
+  "Terminal Type" : "xterm-256color",
+  "Horizontal Spacing" : 1,
+  "Option Key Sends" : 2,
+  "Blink Allowed" : true,
+  "Minimum Contrast" : 0.12333333492279053,
+  "Ansi 15 Color" : {
+    "Green Component" : 0.81499999999999995,
+    "Blue Component" : 0.81599999999999995,
+    "Red Component" : 0.751
+  },
+  "Ansi 6 Color" : {
+    "Green Component" : 0.74199999999999999,
+    "Blue Component" : 0.66600000000000004,
+    "Red Component" : 0.25900000000000001
+  },
+  "Transparency" : 0.021844660863280296,
+  "Initial Text" : "",
+  "Background Color" : {
+    "Green Component" : 0.182,
+    "Blue Component" : 0.221,
+    "Red Component" : 0.067400000000000002
+  },
+  "Screen" : -1,
+  "Bound Hosts" : [
+
+  ],
+  "Non Ascii Font" : "FuraCodeNerdFontC-Regular 16",
+  "Ansi 13 Color" : {
+    "Green Component" : 0.41399999999999998,
+    "Blue Component" : 0.76700000000000002,
+    "Red Component" : 0.98299999999999998
+  },
+  "Columns" : 96,
+  "Visual Bell" : true,
+  "ASCII Ligatures" : true,
+  "Custom Directory" : "Yes",
+  "Set Local Environment Vars" : true
+}

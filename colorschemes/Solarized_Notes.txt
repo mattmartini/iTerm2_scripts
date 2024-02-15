@@ -1,0 +1,8 @@
+                   Dark            Light
+Foreground        Base0           Base00
+Background        Base03          Base3
+Bold              Base1           Base01
+Selection         Base02          Base2
+Selection Text    Base1           Base01
+Cursor            Base0           Base00
+Cursor Text       Base02          Base2
