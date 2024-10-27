@@ -4,7 +4,7 @@
 #                                                                              #
 #   $Id: iterm_fns.sh 2.1 2023-12-30 11:43:55 martini Exp $                    #
 #                                                                              #
-#   Copyright ©️  2017-2024  Matt Martini <matt@imaginarywave.com>              #
+#   Copyright © 2017-2024  Matt Martini <matt@imaginarywave.com>               #
 #   This program is free software: distributed under GNU GPLv3, see LICENSE.   #
 #                                                                              #
 ################################################################################
