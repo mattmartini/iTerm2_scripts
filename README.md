@@ -50,6 +50,10 @@ The main scripts help you manage changing directories. The rest are utilities.
 
 `iterm_tab_color_reset` - remove color from current tab
 
+`iterm_cursor_color_set` - change the color of the cursor
+
+`iterm_cursor_color_reset` - dark/light mode aware cursor color reset
+
 `iterm_cursor_shape_block` - change cursor shape to block
 
 `iterm_cursor_shape_bar` - change cursor shape to bar
@@ -61,6 +65,8 @@ The main scripts help you manage changing directories. The rest are utilities.
 `iterm_show_background_color` -show bg color
 
 `iterm_steal_focus` - steal focus back to iterm
+
+`iterm_clear_buffer` - clear scrollback history
 
 `iterm_set_background_image` - set a base64-encoded filename to display as a background image
 

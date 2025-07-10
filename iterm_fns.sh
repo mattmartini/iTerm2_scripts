@@ -2,7 +2,7 @@
 #                                                                              #
 #   iterm2 functions (needs version 3+)                                        #
 #                                                                              #
-#   $Id: iterm_fns.sh 2.1 2023-12-30 11:43:55 martini Exp $                    #
+#   $Id: iterm_fns.sh 2.4 2025-07-10 07:52:12 martini Exp $                    #
 #                                                                              #
 #   Copyright © 2017-2024  Matt Martini <matt@imaginarywave.com>               #
 #   This program is free software: distributed under GNU GPLv3, see LICENSE.   #
@@ -105,6 +105,21 @@ if is_iTerm; then
     echo -e "\033]6;1;bg;*;default\a"
   }
 
+  # iterm_cursor_color_set <red_value> <green_value> <blue_value>  # 0-ff hex
+  iterm_cursor_color_set(){
+    echo -e "\033]Pl${1}${2}${3}\x7"
+  }
+
+  # iterm_cursor_color_reset dark/light mode aware cursor color reset
+  iterm_cursor_color_reset(){
+    if is_Dark; then
+      local RGB='9c9c9c'
+    else
+      local RGB='66777f'
+    fi
+    echo -e "\033]Pl${RGB}\x7"
+  }
+
   ###   set cursor shape
   iterm_cursor_shape_block() {
     echo -e "\033]1337;CursorShape=0\x07"
@@ -134,6 +149,11 @@ if is_iTerm; then
   ###   steal focus
   iterm_steal_focus() {
     echo -e "\033]1337;StealFocus\x07"
+  }
+
+  ###   clear scrollback history
+  iterm_clear_buffer() {
+    echo -e "\033]1337;ClearScrollback\x07"
   }
 
   ###   set background image
