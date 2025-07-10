@@ -88,5 +88,5 @@ See INSTALL for installation notes.
 
 ## License
 
-Copyright © 2017-2024 Matt Martini <matt@imaginarywave.com>  
+Copyright © 2017-2025 Matt Martini <matt@imaginarywave.com>  
 This program is free software: distributed under GNU GPLv3, see LICENSE.
